@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-tig!js%$*0j7ir-m3u%74#n!v!am6_7otct9p1v9eno=+*n6c%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://apidemo.epm.ceseonline.com.gt','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['http://apidemo.epm.ceseonline.com.gt','apidemo.epm.ceseonline.com.gt','localhost', '127.0.0.1']
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:4200', 'http://pruebatecnicaepm.s3-website-us-west-2.amazonaws.com']
+CORS_ALLOWED_ORIGINS = ['http://localhost:4200', 'http://pruebatecnicaepm.s3-website-us-west-2.amazonaws.com','http://apidemo.epm.ceseonline.com.gt']
 
 CORS_ALLOW_METHODS = [
 'DELETE',
