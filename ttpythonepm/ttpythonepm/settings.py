@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-tig!js%$*0j7ir-m3u%74#n!v!am6_7otct9p1v9eno=+*n6c%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['apidemo.epm.ceseonline.com.gt','localhost', '127.0.0.1']
+
 
 
 # Application definition
